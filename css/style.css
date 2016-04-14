@@ -1,0 +1,222 @@
+body {
+	background-image: url(../images/f325b61b2a45830177ce26b6d9d3945f1.jpg);
+    background-size: 100% 100%;
+}
+#wrapper {
+	
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+    border:2px outset red;
+	
+}
+#left {
+	float: left;
+	width: 20%;
+}
+#main {
+	float: right;
+	width: 80%;
+
+	border: thin none #CCC;
+	background-image: url(../images/da5a17b7ccf46604cfbf8d77a19e02521.jpg);
+    background-size:cover;
+    overflow-y:auto;
+}
+#author {
+	height: 300px;
+	background-image: url(../images/logo.png);
+}
+#navigation {
+	background-color: #000;
+	height:auto;
+    background-size:100% 100%;
+}
+
+#main #contents a {
+	font-size: 0.8em;
+	color: #FFF;
+}
+#main #contents ul li {
+	display: inline;
+	font-size: 0.8em;
+	background-color: #000;
+	padding: 3px;
+	border: thin groove #666;
+}
+#main #biography {
+	background-color: #000;
+	color: #FFF;
+	padding: 9px;
+	font-family: Verdana, Geneva, sans-serif;
+	height: 500px;
+	overflow-y:scroll;
+}
+#main #biography ul li {
+	font-size: .9em;
+	font-style: italic;
+}
+
+#main #biography p {
+	font-size: 0.8em;
+	line-height: 20px;
+}
+
+
+#main #contents {
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#main #contents h1 {
+	font-size: 1.4em;
+}
+#main #contents p {
+	font-size: 0.8em;
+}
+#footer {
+	height: 40px;
+	background-color: #000;
+	clear: both;
+}
+
+#page1 {
+  padding:10px;
+  color:white;
+  font-family:Verdana;
+  height:600px;
+  overflow-y:scroll;
+  text-align:center;
+}
+
+    #page1 #itemlist {
+    
+     margin-left:150px;
+    margin-right:auto;
+     display:block;
+    }
+  
+
+
+        #page1 #itemlist img {
+        width:200px;
+        height:200px;
+        border-radius:10px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+      
+        
+        }
+
+    #page1 #itemlist div {
+    float:left;
+    width:300px;
+    height:300px;
+   
+    
+    
+    }
+#page1 #itemlist h3,h4 
+{
+    margin:0px;
+    text-align:center;
+}
+    #page1 #itemlist h4 {
+    color:red;
+    
+    }
+
+
+#contact {
+    margin:0px;
+    background-image:url("../images/map.png");
+    height:550px;
+    font-family:Verdana;
+    
+}
+
+#contact #form{
+    background-color:#666;
+    width:600px;
+    opacity:.8;
+    float:right;
+    height:510px;
+    padding:20px;
+    color:white;
+
+
+}
+#contact #form caption{
+
+    font-size:2em;
+}
+
+#contact #form table {
+    width:500px;
+    font-size:1.2em;
+
+}
+
+#contact #form input[type=text],#contact #form textarea{
+
+    padding:10px;
+    border:5px solid #e4dede;
+    background-color:#000;
+    color:white;
+    font-size:1.2em;
+   
+
+}
+
+    #contact #form input[type=submit],#contact #form input[type=reset] {
+    
+    padding:5px;
+    border:1px solid #000;
+    background-color:#000 ;
+    color:white;
+    font-size:1em;
+    }
+
+
+    
+    .clearfix:after {
+    content: "";
+    display: table;
+    }
+
+    
+    .nav-wrapper {
+       width:100%;
+       background: #999;
+    }
+    .nav-wrapper a {
+        font-size:2em;
+    }
+     
+    .nav-menu {
+       position:relative;
+       display:inline-block;
+    }
+     
+    .nav-menu li {
+       display: inline;
+       list-style-type: none;
+    }
+     
+    .sub-menu {
+       position:absolute;
+       display:none;
+       background: #ccc;
+    }
+.nav-menu ul li:hover > ul {
+   display:inline-block;
+}
+
+.nav-menu > ul > li:after {
+   content: "\25BC"; /*escaped unicode for the down arrow*/
+   font-size: .5em;
+   display: inline;
+   position: relative;
+   }
