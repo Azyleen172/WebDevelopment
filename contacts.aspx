@@ -2,7 +2,22 @@
 
 <asp:Content ID="contactus" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-  
+    <script 
+
+src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+      center: new google.maps.LatLng(4.890958, 114.941127),
+    zoom:10,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById
+
+("map"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 
     <div id="contact">
         <div id="map"></div>
