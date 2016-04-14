@@ -77,3 +77,56 @@
   text-align:center;
   height:620px;
 }
+
+ /*page1 contents*/ 
+  
+  #latestproduct div {
+       height:650px;
+  }
+ 
+  
+ #latestproduct ul{
+     list-style:none;
+     padding:10px;
+     margin:10px;
+     text-align:center;
+    
+ } 
+ #latestproduct ul li {
+     display:inline-block;
+    
+ }
+ #latestproduct ul li ul {
+      border:2px solid #FFF;
+ }
+
+  #latestproduct ul li ul:hover {
+      border:2px dashed #FFF;
+      background-color:black;
+      color:red;
+      cursor:pointer;
+ }
+ #latestproduct ul li ul li {
+     display:list-item;
+     list-style:none;
+     text-align:center;
+     font-size:.8em;
+
+ }
+ #latestproduct ul li img{
+     width:150px;
+     height:150px;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     border-radius:10px;
+    
+ }
+ 
+ #mens,#women {
+    
+ }
+ #latestproduct {
+     overflow-y:hidden;
+     height:650px;
+ }
