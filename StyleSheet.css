@@ -1,2 +1,79 @@
 ﻿body {
+	background-image: url(../images/f325b61b2a45830177ce26b6d9d3945f1.jpg);
+    background-size: 100% 100%;
+}
+#wrapper {
+	
+	margin: 20px auto;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+#left {
+	float: left;
+	width: 20%;
+    background-color:#000;
+    height:620px;
+  
+}
+#main {
+	float: right;
+	width: 80%;
+
+	border: thin none #CCC;
+	background-image: url(../images/da5a17b7ccf46604cfbf8d77a19e02521.jpg);
+    background-size:cover;
+    overflow-y:auto;
+}
+#author {
+	height: 300px;
+	background-image: url(../images/logo.png);
+}
+
+
+
+
+#main #biography {
+	background-color: #000;
+	color: #FFF;
+	padding: 9px;
+	
+	height: 500px;
+	overflow-y:scroll;
+}
+#main #biography ul li {
+	font-size: .9em;
+	font-style: italic;
+}
+
+#main #biography p {
+	font-size: 0.8em;
+	line-height: 20px;
+}
+
+
+
+#main #contents {
+	color: #FFF;
+	
+}
+
+#main #contents h1 {
+	font-size: 1.4em;
+    padding-top:100px;
+}
+#main #contents p {
+	font-size: 0.8em;
+}
+#footer {
+	height: 48px;
+	background-color: #000;
+	clear: both;
+}
+
+#page1 {
+  
+  color:white;
+  overflow-y:hidden;
+  text-align:center;
+  height:620px;
 }
